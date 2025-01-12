@@ -1,5 +1,6 @@
 # Building a SOC + Honeynet in Azure (Live Traffic)
-![HoneyNet   SOC Graphic (2)](https://github.com/user-attachments/assets/0c6cddda-0532-4eb4-b2a3-9ce82aee2a33)
+![HoneyNet   ![HoneyNet   SOC Graphic (2)](https://github.com/user-attachments/assets/a4eeeeb7-c1cd-45a1-9f6e-36d65fb27032)
+
 
 
 ## Introduction
@@ -43,16 +44,16 @@ For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL t
 ## Metrics Before Hardening / Security Controls
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time 2023-03-15 17:04:29
-Stop Time 2023-03-16 17:04:29
+Start Time 01-01-2025 10:51:50
+Stop Time  02-01-2025 10:51:50
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 19470
-| Syslog                   | 3028
-| SecurityAlert            | 10
-| SecurityIncident         | 348
-| AzureNetworkAnalytics_CL | 843
+| SecurityEvent            | 10523
+| Syslog                   | 4032
+| SecurityAlert            | 7
+| SecurityIncident         | 104
+| AzureNetworkAnalytics_CL | 1077
 
 ## Attack Maps Before Hardening / Security Controls
 
@@ -61,16 +62,20 @@ Stop Time 2023-03-16 17:04:29
 ## Metrics After Hardening / Security Controls
 
 The following table shows the metrics we measured in our environment for another 24 hours, but after we have applied security controls:
-Start Time 2023-03-18 15:37
-Stop Time	2023-03-19 15:37
+Start Time 10-01-2025, 9:48:50
+Stop Time	11-01-2025, 9:48:50
 
 | Metric                   | Count
 | ------------------------ | -----
-| SecurityEvent            | 8778
-| Syslog                   | 25
+| SecurityEvent            | 3458
+| Syslog                   | 4
 | SecurityAlert            | 0
 | SecurityIncident         | 0
 | AzureNetworkAnalytics_CL | 0
+
+<h2>END RESULTS %</h2>
+<img width="697" alt="Screen Shot 2025-01-12 at 12 38 13" src="https://github.com/user-attachments/assets/83931f3e-0ef5-40ed-b7af-e3a5b810f1fe" />
+
 
 ## Conclusion
 
